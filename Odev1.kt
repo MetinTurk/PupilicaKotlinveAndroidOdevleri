@@ -26,7 +26,6 @@ fun main() {
     var enlem = 20
     var boylam = 10
     var urunadi = "Baklava"
-    var urunAdi = "Pilav"
     var yemekFiyati = 250
     val marka = "BMW"
     val muzikAdi = "Rap"
