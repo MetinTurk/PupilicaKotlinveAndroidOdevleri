@@ -6,9 +6,9 @@ class Odev2Fonksiyonlar {
         return sonuc
     }
 
-    fun cevreHesapla(uzunKenar:Int , kisaKenar : Int):Int{
+    fun cevreHesapla(uzunKenar:Int , kisaKenar : Int){
         val sonuc = (uzunKenar+kisaKenar)*2
-        return sonuc
+        println("Dikdörtgenin çevresi: ${sonuc}")
     }
 
     fun faktoriyel(sayi:Int):Int{
@@ -19,7 +19,7 @@ class Odev2Fonksiyonlar {
         return faktoriyel
     }
 
-    fun bulucu(kelime: String): Int{
+    fun bulucu(kelime: String){
         var sayi = 0
         for (i in kelime.lowercase()){
             if(i == 'a')
@@ -27,7 +27,7 @@ class Odev2Fonksiyonlar {
                 sayi++
             }
         }
-        return sayi
+        println("'${kelime}' de toplam a harfi sayısı: ${sayi}")
     }
 
     fun icAciToplami(kenarSayisi: Int):Int{

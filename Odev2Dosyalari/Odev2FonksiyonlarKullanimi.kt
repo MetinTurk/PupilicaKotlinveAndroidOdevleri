@@ -12,8 +12,7 @@ fun main() {
     println("Çevre hesapla fonks. kullanımı")
     var uzunKenar = 20
     var kisaKenar = 10
-    var sonucCevre = f.cevreHesapla(uzunKenar , kisaKenar)
-    println("Dikdörtgenin çevresi: ${sonucCevre}")
+    f.cevreHesapla(uzunKenar , kisaKenar)
     f.cizgiBas()
 
     println("Faktoriyel Hesaplama fonks. kullanımı")
@@ -24,8 +23,7 @@ fun main() {
 
     println("a harfi bulma fonks. kullanımı")
     var kelime = "Merhaba Ben Bir Küçük Kod Bloğu Başlangıcıyım..."
-    var aHarfiSayisi = f.bulucu(kelime)
-    println("'${kelime}' de toplam a harfi sayısı: ${aHarfiSayisi}")
+    f.bulucu(kelime)
     f.cizgiBas()
 
     println("İç açı Bulma fonks. kullanımı")
